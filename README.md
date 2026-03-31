@@ -1,18 +1,36 @@
-<h1>Controle de Pedidos de Restaurante</h1>
-<p>Controle de Pedidos de Restaurante com Django</p>
+# 🍽️ Controle de Pedidos de Restaurante
 
-<h3>Quais são as funcionalidades esperadas?<h3>
-- Criar um Pedido com as informações:
-    - Nome do prato
-    - Descrição
-    - Mesa
-    - Preço
-- Gerenciar Pedidos:
-    - Em abertos
-    - Em preparo
-    - Finalizados
-    - Cancelados
-- Deletar Pedidos (admin)
+Sistema de controle de pedidos desenvolvido com **Django**, com foco em organização e gestão dos pedidos dentro de um restaurante.
 
-<h3>Quais serão os dados armazenados?</h3>
-Serão armazenados os dados do nome do prato, o preço, a mesa que fez o pedido e a descrição com as observações
+---
+
+## 📌 Funcionalidades
+
+### Criar Pedido
+Permite cadastrar novos pedidos com as seguintes informações:
+- Nome do prato
+- Descrição
+- Número da mesa
+- Preço
+
+### 🔄 Gerenciamento de Pedidos
+Os pedidos poderão ser organizados por status:
+- Em aberto
+- Em preparo
+- Finalizados
+- Cancelados
+
+### 🗑️ Exclusão de Pedidos
+- Permite deletar pedidos (funcionalidade restrita ao administrador)
+
+---
+
+## 💾 Dados Armazenados
+
+O sistema irá armazenar as seguintes informações:
+- Nome do prato
+- Preço
+- Número da mesa
+- Descrição (observações do pedido)
+
+---
